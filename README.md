@@ -38,7 +38,7 @@ https://cdn.jsdelivr.net/gh/pichillilorenzo/http-request-method-db@main/dist/db.
 ```js
 import db from 'http-request-method-db';
 // .. or
-const db = require('http-request-method-db');
+const db = require('http-request-method-db').default;
 
 const getInfo = db['get']; // An instance of HTTPRequestMethod
 console.log(getInfo.syntax); // GET /index.html
