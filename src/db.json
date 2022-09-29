@@ -161,7 +161,7 @@
 	},
 	"get": {
 		"name": "GET",
-		"description": "The HTTP GET method requests a representation of the specified resource. Requests using GET should only be used to request data (they shouldn't include data). Note: Sending body/payload in a GET request may cause some existing implementations to reject the request — while not prohibited by the specification, the semantics are undefined. It is better to just avoid sending payloads in GET requests.",
+		"description": "The HTTP GET method requests a representation of the specified resource. Requests using GET should only be used to request data (they shouldn't include data).",
 		"note": "Note: Sending body/payload in a GET request may cause some existing implementations to reject the request — while not prohibited by the specification, the semantics are undefined. It is better to just avoid sending payloads in GET requests.",
 		"syntax": "GET /index.html",
 		"link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET",
@@ -241,7 +241,7 @@
 	},
 	"head": {
 		"name": "HEAD",
-		"description": "The HTTP HEAD method requests the headers that would be returned if the HEAD request's URL was instead requested with the HTTP GET method. For example, if a URL might produce a large download, a HEAD request could read its Content-Length header to check the filesize without actually downloading the file. Warning: A response to a HEAD method should not have a body. If it has one anyway, that body must be ignored: any representation headers that might describe the erroneous body are instead assumed to describe the response which a similar GET request would have received. If the response to a HEAD request shows that a cached URL response is now outdated, the cached copy is invalidated even if no GET request was made.",
+		"description": "The HTTP HEAD method requests the headers that would be returned if the HEAD request's URL was instead requested with the HTTP GET method. For example, if a URL might produce a large download, a HEAD request could read its Content-Length header to check the filesize without actually downloading the file. If the response to a HEAD request shows that a cached URL response is now outdated, the cached copy is invalidated even if no GET request was made.",
 		"syntax": "HEAD /index.html",
 		"link": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD",
 		"requestHasBody": false,

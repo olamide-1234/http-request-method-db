@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Fixed mdn source description field scraping
+
 ## 1.0.2
 
 - Updated package.json metadata
