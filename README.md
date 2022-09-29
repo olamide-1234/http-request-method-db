@@ -15,6 +15,7 @@
 This is a database of known HTTP Request Methods and information about them. It consists of a single, public JSON file and does not include any logic, allowing it to remain as un-opinionated as possible with an API. It aggregates data from the following sources:
 
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+- https://www.iana.org/assignments/http-methods/http-methods.xhtml
 
 ## Installation
 

@@ -16,6 +16,10 @@
 			{
 				"name": "HTTP Semantics # CONNECT",
 				"link": "https://httpwg.org/specs/rfc9110.html#CONNECT"
+			},
+			{
+				"name": "RFC9110, Section 9.3.6",
+				"link": "https://www.iana.org/go/rfc9110"
 			}
 		],
 		"browserCompatibility": [
@@ -91,6 +95,10 @@
 			{
 				"name": "HTTP Semantics # DELETE",
 				"link": "https://httpwg.org/specs/rfc9110.html#DELETE"
+			},
+			{
+				"name": "RFC9110, Section 9.3.5",
+				"link": "https://www.iana.org/go/rfc9110"
 			}
 		],
 		"browserCompatibility": [
@@ -167,6 +175,10 @@
 			{
 				"name": "HTTP Semantics # GET",
 				"link": "https://httpwg.org/specs/rfc9110.html#GET"
+			},
+			{
+				"name": "RFC9110, Section 9.3.1",
+				"link": "https://www.iana.org/go/rfc9110"
 			}
 		],
 		"browserCompatibility": [
@@ -243,6 +255,10 @@
 			{
 				"name": "HTTP Semantics # HEAD",
 				"link": "https://httpwg.org/specs/rfc9110.html#HEAD"
+			},
+			{
+				"name": "RFC9110, Section 9.3.2",
+				"link": "https://www.iana.org/go/rfc9110"
 			}
 		],
 		"browserCompatibility": [
@@ -318,6 +334,10 @@
 			{
 				"name": "HTTP Semantics # OPTIONS",
 				"link": "https://httpwg.org/specs/rfc9110.html#OPTIONS"
+			},
+			{
+				"name": "RFC9110, Section 9.3.7",
+				"link": "https://www.iana.org/go/rfc9110"
 			}
 		],
 		"browserCompatibility": [
@@ -393,6 +413,10 @@
 			{
 				"name": "RFC 5789",
 				"link": "https://www.rfc-editor.org/rfc/rfc5789"
+			},
+			{
+				"name": "RFC5789, Section 2",
+				"link": "https://www.iana.org/go/rfc5789"
 			}
 		],
 		"browserCompatibility": []
@@ -415,6 +439,10 @@
 			{
 				"name": "HTTP Semantics # POST",
 				"link": "https://httpwg.org/specs/rfc9110.html#POST"
+			},
+			{
+				"name": "RFC9110, Section 9.3.3",
+				"link": "https://www.iana.org/go/rfc9110"
 			}
 		],
 		"browserCompatibility": [
@@ -490,6 +518,10 @@
 			{
 				"name": "HTTP Semantics # PUT",
 				"link": "https://httpwg.org/specs/rfc9110.html#PUT"
+			},
+			{
+				"name": "RFC9110, Section 9.3.4",
+				"link": "https://www.iana.org/go/rfc9110"
 			}
 		],
 		"browserCompatibility": [
@@ -565,6 +597,10 @@
 			{
 				"name": "HTTP Semantics # TRACE",
 				"link": "https://httpwg.org/specs/rfc9110.html#TRACE"
+			},
+			{
+				"name": "RFC9110, Section 9.3.8",
+				"link": "https://www.iana.org/go/rfc9110"
 			}
 		],
 		"browserCompatibility": [
@@ -613,5 +649,525 @@
 				"version": "?"
 			}
 		]
+	},
+	"acl": {
+		"name": "ACL",
+		"description": "ACL",
+		"syntax": "ACL",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3744, Section 8.1",
+				"link": "https://www.iana.org/go/rfc3744"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"baseline-control": {
+		"name": "BASELINE-CONTROL",
+		"description": "BASELINE-CONTROL",
+		"syntax": "BASELINE-CONTROL",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 12.6",
+				"link": "https://www.iana.org/go/rfc3253"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"bind": {
+		"name": "BIND",
+		"description": "BIND",
+		"syntax": "BIND",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC5842, Section 4",
+				"link": "https://www.iana.org/go/rfc5842"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"checkin": {
+		"name": "CHECKIN",
+		"description": "CHECKIN",
+		"syntax": "CHECKIN",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 4.4, Section 9.4",
+				"link": "https://www.iana.org/go/rfc3253"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"checkout": {
+		"name": "CHECKOUT",
+		"description": "CHECKOUT",
+		"syntax": "CHECKOUT",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 4.3, Section 8.8",
+				"link": "https://www.iana.org/go/rfc3253"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"copy": {
+		"name": "COPY",
+		"description": "COPY",
+		"syntax": "COPY",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC4918, Section 9.8",
+				"link": "https://www.iana.org/go/rfc4918"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"label": {
+		"name": "LABEL",
+		"description": "LABEL",
+		"syntax": "LABEL",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 8.2",
+				"link": "https://www.iana.org/go/rfc3253"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"link": {
+		"name": "LINK",
+		"description": "LINK",
+		"syntax": "LINK",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC2068, Section 19.6.1.2",
+				"link": "https://www.iana.org/go/rfc2068"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"lock": {
+		"name": "LOCK",
+		"description": "LOCK",
+		"syntax": "LOCK",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": false,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC4918, Section 9.10",
+				"link": "https://www.iana.org/go/rfc4918"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"merge": {
+		"name": "MERGE",
+		"description": "MERGE",
+		"syntax": "MERGE",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 11.2",
+				"link": "https://www.iana.org/go/rfc3253"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"mkactivity": {
+		"name": "MKACTIVITY",
+		"description": "MKACTIVITY",
+		"syntax": "MKACTIVITY",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 13.5",
+				"link": "https://www.iana.org/go/rfc3253"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"mkcalendar": {
+		"name": "MKCALENDAR",
+		"description": "MKCALENDAR",
+		"syntax": "MKCALENDAR",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC4791, Section 5.3.1",
+				"link": "https://www.iana.org/go/rfc4791"
+			},
+			{
+				"name": "RFC8144, Section 2.3",
+				"link": "https://www.iana.org/go/rfc8144"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"mkcol": {
+		"name": "MKCOL",
+		"description": "MKCOL",
+		"syntax": "MKCOL",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC4918, Section 9.3",
+				"link": "https://www.iana.org/go/rfc4918"
+			},
+			{
+				"name": "RFC5689, Section 3",
+				"link": "https://www.iana.org/go/rfc5689"
+			},
+			{
+				"name": "RFC8144, Section 2.3",
+				"link": "https://www.iana.org/go/rfc8144"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"mkredirectref": {
+		"name": "MKREDIRECTREF",
+		"description": "MKREDIRECTREF",
+		"syntax": "MKREDIRECTREF",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC4437, Section 6",
+				"link": "https://www.iana.org/go/rfc4437"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"mkworkspace": {
+		"name": "MKWORKSPACE",
+		"description": "MKWORKSPACE",
+		"syntax": "MKWORKSPACE",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 6.3",
+				"link": "https://www.iana.org/go/rfc3253"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"move": {
+		"name": "MOVE",
+		"description": "MOVE",
+		"syntax": "MOVE",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC4918, Section 9.9",
+				"link": "https://www.iana.org/go/rfc4918"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"orderpatch": {
+		"name": "ORDERPATCH",
+		"description": "ORDERPATCH",
+		"syntax": "ORDERPATCH",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3648, Section 7",
+				"link": "https://www.iana.org/go/rfc3648"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"pri": {
+		"name": "PRI",
+		"description": "PRI",
+		"syntax": "PRI",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": true,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC9113, Section 3.4",
+				"link": "https://www.iana.org/go/rfc9113"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"propfind": {
+		"name": "PROPFIND",
+		"description": "PROPFIND",
+		"syntax": "PROPFIND",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": true,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC4918, Section 9.1",
+				"link": "https://www.iana.org/go/rfc4918"
+			},
+			{
+				"name": "RFC8144, Section 2.1",
+				"link": "https://www.iana.org/go/rfc8144"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"proppatch": {
+		"name": "PROPPATCH",
+		"description": "PROPPATCH",
+		"syntax": "PROPPATCH",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC4918, Section 9.2",
+				"link": "https://www.iana.org/go/rfc4918"
+			},
+			{
+				"name": "RFC8144, Section 2.2",
+				"link": "https://www.iana.org/go/rfc8144"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"rebind": {
+		"name": "REBIND",
+		"description": "REBIND",
+		"syntax": "REBIND",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC5842, Section 6",
+				"link": "https://www.iana.org/go/rfc5842"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"report": {
+		"name": "REPORT",
+		"description": "REPORT",
+		"syntax": "REPORT",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": true,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 3.6",
+				"link": "https://www.iana.org/go/rfc3253"
+			},
+			{
+				"name": "RFC8144, Section 2.1",
+				"link": "https://www.iana.org/go/rfc8144"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"search": {
+		"name": "SEARCH",
+		"description": "SEARCH",
+		"syntax": "SEARCH",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": true,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC5323, Section 2",
+				"link": "https://www.iana.org/go/rfc5323"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"unbind": {
+		"name": "UNBIND",
+		"description": "UNBIND",
+		"syntax": "UNBIND",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC5842, Section 5",
+				"link": "https://www.iana.org/go/rfc5842"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"uncheckout": {
+		"name": "UNCHECKOUT",
+		"description": "UNCHECKOUT",
+		"syntax": "UNCHECKOUT",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 4.5",
+				"link": "https://www.iana.org/go/rfc3253"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"unlink": {
+		"name": "UNLINK",
+		"description": "UNLINK",
+		"syntax": "UNLINK",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC2068, Section 19.6.1.3",
+				"link": "https://www.iana.org/go/rfc2068"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"unlock": {
+		"name": "UNLOCK",
+		"description": "UNLOCK",
+		"syntax": "UNLOCK",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC4918, Section 9.11",
+				"link": "https://www.iana.org/go/rfc4918"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"update": {
+		"name": "UPDATE",
+		"description": "UPDATE",
+		"syntax": "UPDATE",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 7.1",
+				"link": "https://www.iana.org/go/rfc3253"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"updateredirectref": {
+		"name": "UPDATEREDIRECTREF",
+		"description": "UPDATEREDIRECTREF",
+		"syntax": "UPDATEREDIRECTREF",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC4437, Section 7",
+				"link": "https://www.iana.org/go/rfc4437"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"version-control": {
+		"name": "VERSION-CONTROL",
+		"description": "VERSION-CONTROL",
+		"syntax": "VERSION-CONTROL",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": true,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC3253, Section 3.5",
+				"link": "https://www.iana.org/go/rfc3253"
+			}
+		],
+		"browserCompatibility": []
+	},
+	"*": {
+		"name": "*",
+		"description": "*",
+		"syntax": "*",
+		"link": "https://www.iana.org/assignments/http-methods/http-methods.xhtml",
+		"safe": false,
+		"idempotent": false,
+		"examples": [],
+		"specifications": [
+			{
+				"name": "RFC9110, Section 18.2",
+				"link": "https://www.iana.org/go/rfc9110"
+			}
+		],
+		"browserCompatibility": []
 	}
 }
