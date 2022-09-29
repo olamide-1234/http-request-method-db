@@ -1,3 +1,7 @@
+## 1.0.4
+
+- Fixed databases merge logic
+
 ## 1.0.3
 
 - Fixed mdn source description field scraping
